@@ -1,0 +1,30 @@
+:root{
+    font-family: 
+    system-ui, -apple-system,
+    "Segoe UI"
+    ,Roboto
+    ,"Helvetica Neue"
+    ,"Noto Sans"
+    ,"Liberation Sans"
+    ,Arial
+    ,sans-serif
+    ,"Apple Color Emoji"
+    ,"Segoe UI Emoji"
+    ,"Segoe UI Symbol"
+    ,"Noto Color Emoji";
+}
+
+.nav-item{
+    padding-inline: 1rem;
+    
+}
+.navbar{
+    background-color: #2c3e50;
+}
+.navbar a{
+    color: white;
+}
+.active{
+    background-color: #1abc9c;
+    border-radius: 5px ;
+}

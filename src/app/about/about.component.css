@@ -1,0 +1,9 @@
+.about{
+    background-color: #1abc9c;
+    padding-top: 10rem !important;
+}
+.line{
+    height: 4px;
+    width: 75px;
+    background-color: white;
+}

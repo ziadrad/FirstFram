@@ -1,0 +1,13 @@
+<div class="row w-100 p-5 pt-0 g-3">
+    @for (x of recomendedList; track $index) {
+     <div class="card" class="col-md-4 p-2 col-12 border-2 rounded-3  p-0">
+         <img [src]="x.pimg" class="card-img-top rounded-top-3 w-100" alt="...">
+         <div class="card-body p-2 rounded-bottom-3 bg-warning">
+           <h5 class="card-title fw-bolder">{{x.pname}}</h5>
+           <p class="card-text"> The category is : {{x.pcat}}<br>
+             The Price is : {{x.pprice}}
+           </p>
+         </div>
+       </div>
+    }
+ </div>

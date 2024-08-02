@@ -1,0 +1,20 @@
+.bg{
+    background-color: #2c3e50;
+}
+.sec-bg{
+    background-color: #1a252f;
+}
+:root{
+    color: white;
+}
+.icon{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 2px white solid;
+    border-radius: 50%;
+}
+.card{
+    background-color: transparent !important;
+    border: none;
+    color: white;
+}
